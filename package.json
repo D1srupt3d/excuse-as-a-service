@@ -1,0 +1,36 @@
+{
+  "name": "eaas",
+  "version": "1.0.0",
+  "description": "A lightweight API that returns random excuses for any situation.",
+  "main": "index.js",
+  "bin": {
+    "eaas": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "excuse",
+    "api",
+    "service",
+    "cli",
+    "humor",
+    "random"
+  ],
+  "author": "D1srupt3d",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "chalk": "^5.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
