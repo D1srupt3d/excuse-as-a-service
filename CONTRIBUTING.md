@@ -37,9 +37,9 @@ thanks for wanting to add more excuses!
 
 ## guidelines
 
-- one excuse per PR ideally
+- one to many exuses per pr
 - check for duplicates first
-- keep it funny but not offensive
+- keep it funny but not offensive (maybe)
 - spelling mistakes are fine if theyre funny
 
 ## other contributions
